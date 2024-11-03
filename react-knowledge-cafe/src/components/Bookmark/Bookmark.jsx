@@ -6,7 +6,7 @@ const Bookmark = ({ bookmark }) => {
 
     return (
         <div className="bg-slate-200 p-6 m-4 rounded-xl">
-            <h3 className="text-2xl font-normal">{title}</h3>
+            <h3 className="text-2xl font-normal text-center ">{title}</h3>
         </div>
     );
 };
